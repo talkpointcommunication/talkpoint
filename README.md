@@ -1,73 +1,85 @@
-# Welcome to your Lovable project
+# TALK POINT SOLUTIONS
 
-## Project info
+A modern, responsive website for TALK POINT SOLUTIONS - an independent third-party service assistance platform helping users navigate internet, cable TV, and streaming options.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+## 🚀 Live Site
 
-## How can I edit this code?
+Visit: [https://talkpointcommunication.com](https://talkpointcommunication.com)
 
-There are several ways of editing your application.
+## 🛠️ Technology Stack
 
-**Use Lovable**
+- **React 18** - Modern UI library
+- **TypeScript** - Type-safe development
+- **Vite** - Fast build tool
+- **Tailwind CSS** - Utility-first CSS framework
+- **shadcn/ui** - Beautiful UI components
+- **Framer Motion** - Smooth animations
+- **React Router** - Client-side routing
+- **Bun** - Fast package manager and runtime
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+## 📦 Installation
 
-Changes made via Lovable will be committed automatically to this repo.
+```bash
+# Install dependencies
+bun install
 
-**Use your preferred IDE**
+# Start development server
+bun run dev
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+# Build for production
+bun run build
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+# Preview production build
+bun run preview
 ```
 
-**Edit a file directly in GitHub**
+## 🌐 Deployment
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+This site is automatically deployed to GitHub Pages using GitHub Actions.
 
-**Use GitHub Codespaces**
+### Automatic Deployment
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+Every push to the `main` branch triggers an automatic deployment:
 
-## What technologies are used for this project?
+1. The GitHub Actions workflow builds the project
+2. Optimizes assets for production
+3. Deploys to GitHub Pages
+4. Updates the live site at talkpointcommunication.com
 
-This project is built with:
+### Manual Deployment
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+To manually trigger a deployment:
+1. Go to the GitHub repository
+2. Navigate to Actions tab
+3. Select "Deploy to GitHub Pages" workflow
+4. Click "Run workflow"
 
-## How can I deploy this project?
+## 📁 Project Structure
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+```
+src/
+├── components/      # Reusable UI components
+│   ├── home/       # Homepage sections
+│   ├── layout/     # Layout components (Header, Footer)
+│   └── ui/         # shadcn/ui components
+├── pages/          # Page components
+├── hooks/          # Custom React hooks
+├── lib/            # Utility functions
+└── assets/         # Images and media files
+```
 
-## Can I connect a custom domain to my Lovable project?
+## 🔧 Configuration
 
-Yes, you can!
+- **Vite Config**: `vite.config.ts`
+- **Tailwind Config**: `tailwind.config.ts`
+- **TypeScript Config**: `tsconfig.json`
+- **GitHub Actions**: `.github/workflows/deploy.yml`
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+## 📞 Contact
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+Phone: (888) 363-0848  
+Email: support@talkpointsolutions.com
+
+## 📄 License
+
+All rights reserved © 2026 TALK POINT SOLUTIONS
