@@ -7,9 +7,6 @@ import { ScrollToTop } from "@/components/ScrollToTop";
 import { StickyCallButton } from "@/components/StickyCallButton";
 import { ChatBot } from "@/components/ChatBot";
 import Index from "./pages/Index";
-import InternetPlans from "./pages/InternetPlans";
-import CableTvPlans from "./pages/CableTvPlans";
-import Bundles from "./pages/Bundles";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import FAQ from "./pages/FAQ";
@@ -35,9 +32,6 @@ const App = () => (
         <ChatBot />
         <Routes>
           <Route path="/" element={<Index />} />
-          <Route path="/internet-plans" element={<InternetPlans />} />
-          <Route path="/cable-tv-plans" element={<CableTvPlans />} />
-          <Route path="/bundles" element={<Bundles />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/faq" element={<FAQ />} />

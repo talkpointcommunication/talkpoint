@@ -6,9 +6,6 @@ import { Logo } from '@/components/Logo';
 
 const navLinks = [
   { name: 'Home', href: '/' },
-  { name: 'Internet', href: '/internet-plans' },
-  { name: 'Cable TV', href: '/cable-tv-plans' },
-  { name: 'Bundles', href: '/bundles' },
   { name: 'About', href: '/about' },
   { name: 'FAQ', href: '/faq' },
   { name: 'Contact', href: '/contact' },
@@ -55,7 +52,7 @@ export const Navbar = () => {
               (888) 363-0848
             </a>
             <Button variant="cta" size="sm" asChild className="hidden xl:flex text-xs lg:text-sm">
-              <a href="tel:(888) 363-0848">Call Now (888) 363-0848</a>
+              <a href="tel:(888) 363-0848">Get Independent Advice</a>
             </Button>
           </div>
 
@@ -93,8 +90,7 @@ export const Navbar = () => {
                   (888) 363-0848
                 </a>
                 <Button variant="cta" className="w-full touch-manipulation" asChild>
-                  <a href="tel:(888) 363-0848">Get Started</a>
-                </Button>
+                  <a href="tel:(888) 363-0848">Get Guidance</a>
                 </Button>
               </div>
             </div>

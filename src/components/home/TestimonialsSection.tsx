@@ -5,21 +5,21 @@ const testimonials = [
   {
     name: 'Sarah Johnson',
     role: 'Remote Worker',
-    content: 'With guidance from TALK POINT SOLUTIONS, I found connectivity options that work perfectly for my video calls and remote work needs. The assistance team was incredibly helpful!',
+    content: 'The independent advisors at TALK POINT SOLUTIONS helped me understand which connectivity options would work best for my video calls and remote work. Their unbiased guidance was invaluable!',
     rating: 5,
     avatar: 'SJ',
   },
   {
     name: 'Michael Chen',
     role: 'Gaming Enthusiast',
-    content: 'The team helped me understand which high-speed options would reduce my ping times. Their guidance made the decision process so much easier. Excellent support!',
+    content: 'Finally, someone who explained internet options without trying to sell me anything! The independent guidance helped me understand what I actually needed for gaming.',
     rating: 5,
     avatar: 'MC',
   },
   {
     name: 'Emily Rodriguez',
     role: 'Family of 5',
-    content: 'With 3 kids streaming, gaming, and doing homework simultaneously, finding the right connectivity was crucial. TALK POINT SOLUTIONS guided us through all the options perfectly.',
+    content: 'As a busy mom, I appreciated their straightforward advice on connectivity needs for our family. No sales pitch—just honest guidance from independent advisors.',
     rating: 5,
     avatar: 'ER',
   },
@@ -43,7 +43,7 @@ export const TestimonialsSection = () => {
             Trusted by <span className="gradient-text">Many</span>
           </h2>
           <p className="text-lg text-muted-foreground">
-            Here's what people say about our assistance and guidance services.
+            Here's what people say about our independent advisory and guidance services.
           </p>
         </motion.div>
 

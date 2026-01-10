@@ -5,30 +5,30 @@ import video4 from '@/assets/video4.mp4';
 const highlights = [
   {
     icon: Zap,
-    title: 'Lightning Fast',
-    value: '1 Gbps',
-    description: 'Experience speeds that power your entire home',
+    title: 'Independent Advisors',
+    value: 'Unbiased',
+    description: 'No ISP affiliation or brand partnerships',
     color: 'from-yellow-500 to-orange-500',
   },
   {
     icon: Users,
-    title: '1,000+ Assisted',
+    title: '1,000+ Consultations',
     value: 'Trusted',
-    description: 'People helped with connectivity decisions',
+    description: 'People helped understand connectivity options',
     color: 'from-blue-500 to-cyan-500',
   },
   {
     icon: Award,
-    title: 'Award Winning',
-    value: '#1 Rated',
-    description: 'Excellence in service delivery',
+    title: 'Expert Guidance',
+    value: 'Practical',
+    description: 'Real help navigating provider processes',
     color: 'from-purple-500 to-pink-500',
   },
   {
     icon: CheckCircle2,
-    title: '99.9% Uptime',
-    value: 'Reliable',
-    description: 'Connection you can count on',
+    title: '24/7 Available',
+    value: 'Always',
+    description: 'Advisory service when you need it',
     color: 'from-green-500 to-emerald-500',
   },
 ];
@@ -66,7 +66,7 @@ export const VideoSection = () => {
                 className="inline-flex items-center gap-2 px-3 sm:px-5 py-2 sm:py-2.5 rounded-full bg-white/10 backdrop-blur-md border border-white/20 mb-6 sm:mb-8"
               >
                 <TrendingUp className="w-4 h-4 text-primary" />
-                <span className="text-xs sm:text-sm font-semibold text-white">Helping people understand connectivity options</span>
+                <span className="text-xs sm:text-sm font-semibold text-white">Independent Third-Party Internet Advisors</span>
               </motion.div>
 
               {/* Heading */}
@@ -78,20 +78,20 @@ export const VideoSection = () => {
                 className="mb-12"
               >
                 <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-black text-white mb-4 sm:mb-6 leading-[1.1]">
-                  Navigate the
+                  Understand Your
                   <span className="block mt-1 sm:mt-2">
-                    Future of{' '}
+                    Internet &{' '}
                     <span className="bg-gradient-to-r from-primary via-accent to-success bg-clip-text text-transparent">
-                      Connectivity
+                      Cable Options
                     </span>
                   </span>
                 </h2>
                 <p className="text-base sm:text-lg md:text-xl lg:text-2xl text-white/90 mb-3 sm:mb-4 leading-relaxed max-w-3xl">
-                  We help you understand options for streaming, gaming, working, and learning.
+                  Get independent guidance on internet and cable TV service options. We help you navigate connectivity choices—NOT an ISP.
                 </p>
                 <div className="flex items-center gap-2 sm:gap-3">
                   <Shield className="w-4 h-4 sm:w-5 sm:h-5 text-success" />
-                  <span className="text-white/80 text-xs sm:text-sm">Independent guidance • Expert assistance • Transparent support</span>
+                  <span className="text-white/80 text-xs sm:text-sm">Independent advisors • No ISP affiliation • Unbiased guidance</span>
                 </div>
               </motion.div>
 

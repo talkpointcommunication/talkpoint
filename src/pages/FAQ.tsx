@@ -14,11 +14,11 @@ const faqs = [
     questions: [
       {
         q: 'Are you an official cable or internet service provider?',
-        a: 'No. TALK POINT SOLUTIONS is an independent third-party assistance platform. We are not an internet service provider (ISP) or cable company. We provide guidance and support to help you navigate your connectivity options.',
+        a: 'No. TALK POINT SOLUTIONS is an independent third-party advisory service. We are NOT an internet service provider (ISP), NOT a cable company, and NOT affiliated with any telecom brand. We provide independent guidance to help you understand and navigate your connectivity options.',
       },
       {
         q: 'Do you sell internet, cable, or streaming plans?',
-        a: 'No. We do not sell internet, cable TV, or streaming plans. We provide guidance and assistance services only. All service purchases and agreements are made directly between you and the service provider of your choice.',
+        a: 'No. We do NOT sell internet, cable TV, or streaming services. We are independent advisors providing guidance only. We do NOT provide official ISP support, do NOT represent any telecom brand, and do NOT provide guaranteed technical fixes. All service decisions and purchases are made directly between you and your chosen provider.',
       },
       {
         q: 'Do you charge for your services?',
@@ -26,7 +26,7 @@ const faqs = [
       },
       {
         q: 'Are you affiliated with any service providers?',
-        a: 'No. TALK POINT SOLUTIONS is completely independent and is not affiliated with, endorsed by, or sponsored by any cable, internet, or streaming service provider. We maintain independence to provide unbiased guidance.',
+        a: 'No. TALK POINT SOLUTIONS is completely independent and is NOT affiliated with, authorized by, or endorsed by any cable, internet, or telecommunications company. We maintain complete independence to provide unbiased guidance. All mentions of providers are for informational purposes only.',
       },
     ],
   },
@@ -94,8 +94,8 @@ const faqs = [
     category: 'Support & Assistance',
     questions: [
       {
-        q: 'What type of assistance do you provide?',
-        a: 'We provide guidance, educational support, and assistance to help you understand and navigate your internet, cable TV, and streaming options. This includes explaining plan features, comparing options, and guiding you through the selection process.',
+        q: 'What type of guidance do you provide?',
+        a: 'We help users understand internet/broadband service options, provide practical guidance on connectivity issues, and help you learn how to navigate service provider processes. We do NOT provide official service, ISP support, or represent any telecom brand.',
       },
       {
         q: 'How do I contact customer support?',

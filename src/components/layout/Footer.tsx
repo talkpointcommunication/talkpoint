@@ -4,10 +4,10 @@ import { Logo } from '@/components/Logo';
 
 const footerLinks = {
   services: [
-    { name: 'Internet Assistance', href: '/internet-plans' },
-    { name: 'Cable TV Guidance', href: '/cable-tv-plans' },
-    { name: 'Bundle Support', href: '/bundles' },
-    { name: 'Business Assistance', href: '/contact' },
+    { name: 'Internet Guidance', href: '/contact' },
+    { name: 'Cable TV Help', href: '/contact' },
+    { name: 'Connectivity Support', href: '/contact' },
+    { name: 'Business Consultation', href: '/contact' },
   ],
   company: [
     { name: 'About Us', href: '/about' },
@@ -38,7 +38,7 @@ export const Footer = () => {
               </div>
             </Link>
             <p className="text-sm sm:text-base text-primary-foreground/70 mb-4 sm:mb-6 max-w-sm">
-              An independent third-party service assistance platform helping you navigate internet, cable TV, and streaming options. We provide guidance and support—not direct service provisioning.
+              An independent third-party advisory service helping you navigate internet and cable TV options. We are NOT an ISP or affiliated with any provider—we provide unbiased guidance only.
             </p>
             <div className="space-y-2 sm:space-y-3">
               <a href="tel:(888) 363-0848" className="flex items-center gap-2 sm:gap-3 text-sm sm:text-base text-primary-foreground/70 hover:text-primary transition-colors">
@@ -112,8 +112,8 @@ export const Footer = () => {
         <div className="mt-12 pt-8 border-t border-primary-foreground/10">
           <div className="bg-primary-foreground/10 rounded-xl p-6 mb-6 border-2 border-primary/20">
             <p className="text-sm text-primary-foreground font-medium text-center leading-relaxed">
-              <strong className="block mb-2 text-base">Independent Service Disclosure:</strong>
-              TALK POINT SOLUTIONS is an independent third-party service assistance startup, launched in 2026, and is not affiliated with, endorsed by, or sponsored by any cable, internet, or streaming service provider. We provide guidance and assistance services only. We do not sell internet, cable, or streaming plans. All service purchases and billing are handled directly by the service providers. All trademarks, logos, and service marks are the property of their respective owners.
+              <strong className="block mb-2 text-base">What We DON'T Do:</strong>
+              We are NOT an internet service provider (ISP). We are NOT affiliated, authorized, or endorsed by any telecom/cable company. We do NOT sell official ISP services. We do NOT provide guaranteed technical fixes. All mentions of providers are for informational purposes only. TALK POINT SOLUTIONS is an independent third-party advisory startup providing guidance services only.
             </p>
           </div>
           

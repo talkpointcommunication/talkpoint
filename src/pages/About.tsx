@@ -6,15 +6,15 @@ import technicianImage from '@/assets/technician-install.jpg';
 const stats = [
   { value: '2026', label: 'Founded' },
   { value: '100%', label: 'Independent' },
-  { value: '1000+', label: 'People Assisted' },
-  { value: '24/7', label: 'Assistance Available' },
+  { value: '1000+', label: 'Consultations' },
+  { value: '24/7', label: 'Advisory Service' },
 ];
 
 const values = [
-  { icon: Users, title: 'Customer Guidance', description: 'We provide personalized assistance to help you understand your connectivity options.' },
-  { icon: Award, title: 'Expert Knowledge', description: 'Our team has extensive knowledge of connectivity solutions and provider offerings.' },
-  { icon: Clock, title: 'Always Available', description: '24/7 assistance available to answer your questions anytime.' },
-  { icon: Shield, title: 'Independent Service', description: 'We are completely independent and not affiliated with any provider.' },
+  { icon: Users, title: 'Independent Guidance', description: 'We provide unbiased advice to help you understand connectivity options from multiple providers.' },
+  { icon: Award, title: 'Expert Knowledge', description: 'Our team has extensive knowledge of internet/broadband options and provider offerings.' },
+  { icon: Clock, title: 'Always Available', description: '24/7 independent advisory service available to answer your questions anytime.' },
+  { icon: Shield, title: 'No ISP Affiliation', description: 'We are completely independent and NOT affiliated with any internet or cable provider.' },
 ];
 
 const About = () => {
@@ -28,9 +28,10 @@ const About = () => {
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <motion.div initial={{ opacity: 0, x: -40 }} animate={{ opacity: 1, x: 0 }} transition={{ duration: 0.6 }}>
               <h1 className="text-4xl sm:text-5xl font-bold text-foreground mb-6">About <span className="gradient-text">TALK POINT SOLUTIONS</span></h1>
-              <p className="text-lg text-muted-foreground mb-6">Launched in 2026, we're an independent third-party assistance platform dedicated to helping you navigate the complex world of internet and cable TV connectivity options.</p>
-              <p className="text-lg text-muted-foreground mb-6">We don't sell plans. We don't represent providers. We provide expert guidance and support to help you make informed decisions about your connectivity needs.</p>
-              <p className="text-lg text-muted-foreground">Our mission: transparent assistance, expert knowledge, and support you can trust.</p>
+              <h2 className="text-2xl font-bold text-foreground mb-4">What We Do</h2>
+              <p className="text-lg text-muted-foreground mb-6">At https://talkpointcommunication.com/, we help users understand internet/broadband service options, get practical guidance on connectivity issues, and learn how to navigate service provider processes.</p>
+              <h2 className="text-2xl font-bold text-foreground mb-4">What We DON'T Do</h2>
+              <p className="text-lg text-muted-foreground mb-6">We are NOT an internet service provider (ISP). We are NOT affiliated, authorized, or endorsed by any telecom/cable company. We do NOT sell official ISP services. We do NOT provide guaranteed technical fixes. All mentions of providers are for informational purposes only.</p>
             </motion.div>
             <motion.div className="relative" initial={{ opacity: 0, scale: 0.9 }} animate={{ opacity: 1, scale: 1 }} transition={{ duration: 0.6, delay: 0.2 }}>
               <div className="absolute -inset-4 bg-gradient-to-r from-primary/20 to-accent/20 rounded-3xl blur-2xl" />
@@ -78,13 +79,14 @@ const About = () => {
       <section className="section-padding bg-secondary/30">
         <div className="container-width">
           <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} className="bg-primary/10 border-2 border-primary/30 rounded-2xl p-8 shadow-card">
-            <h3 className="text-xl font-bold text-foreground mb-4 text-center">Independent Service Disclosure</h3>
-            <p className="text-muted-foreground text-center max-w-3xl mx-auto">
-              TALK POINT SOLUTIONS is an independent third-party assistance service launched in 2026. We are NOT affiliated with, 
-              endorsed by, or acting as an official representative of any internet, cable, or telecommunications provider. 
-              We do NOT sell services or plans. We provide guidance and assistance for separate fees. All provider names and 
-              trademarks are property of their respective owners.
-            </p>
+            <h3 className="text-xl font-bold text-foreground mb-4 text-center">What We DON'T Do - To Avoid Confusion</h3>
+            <div className="text-muted-foreground text-center max-w-3xl mx-auto space-y-3">
+              <p>• We are NOT an internet service provider (ISP)</p>
+              <p>• We are NOT affiliated, authorized, or endorsed by any telecom/cable company</p>
+              <p>• We do NOT sell official ISP services</p>
+              <p>• We do NOT provide guaranteed technical fixes</p>
+              <p className="mt-4 font-semibold">All mentions of providers are for informational purposes only.</p>
+            </div>
           </motion.div>
         </div>
       </section>

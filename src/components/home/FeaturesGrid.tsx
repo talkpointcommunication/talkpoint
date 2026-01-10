@@ -4,38 +4,38 @@ import { Shield, Headphones, Rocket, Gift, Wifi, Clock } from 'lucide-react';
 const features = [
   {
     icon: Rocket,
-    title: 'Expert Guidance',
-    description: 'We help you understand connectivity options and make informed decisions.',
+    title: 'Independent Advisors',
+    description: 'We provide unbiased guidance—NOT affiliated with any ISP or telecom company.',
     color: 'primary',
   },
   {
     icon: Shield,
-    title: 'Transparent Process',
-    description: 'Clear information about options and our separate assistance fees.',
+    title: 'No ISP Affiliation',
+    description: 'Completely independent advice. We do NOT represent any internet or cable provider.',
     color: 'success',
   },
   {
     icon: Headphones,
-    title: '24/7 Support Available',
-    description: 'Real humans ready to assist you anytime, day or night.',
+    title: '24/7 Advisory Service',
+    description: 'Independent advisors ready to help you understand your options anytime.',
     color: 'accent',
   },
   {
     icon: Gift,
-    title: 'No Hidden Fees',
-    description: 'Transparent pricing for our assistance services. What you see is what you pay.',
+    title: 'Transparent Service',
+    description: 'Clear information about what we do and DON\'T do. No misleading claims.',
     color: 'primary',
   },
   {
     icon: Wifi,
-    title: 'Comprehensive Options',
-    description: 'We help you explore all available connectivity solutions in your area.',
+    title: 'Practical Guidance',
+    description: 'We help you understand connectivity issues and navigate provider processes.',
     color: 'success',
   },
   {
     icon: Clock,
-    title: 'Quick Assistance',
-    description: 'Get guidance and support as soon as you need it.',
+    title: 'Quick Consultation',
+    description: 'Get independent advice and guidance as soon as you need it.',
     color: 'accent',
   },
 ];
@@ -69,7 +69,7 @@ export const FeaturesGrid = () => {
             Why Choose <span className="gradient-text">TALK POINT SOLUTIONS</span>?
           </h2>
           <p className="text-lg text-muted-foreground">
-            We're your independent partner in navigating connectivity options with expert guidance.
+            We're your independent partner in navigating connectivity options—NOT an ISP, NOT affiliated with any provider.
           </p>
         </motion.div>
 

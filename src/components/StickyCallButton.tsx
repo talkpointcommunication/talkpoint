@@ -31,9 +31,9 @@ export const StickyCallButton = () => {
             </button>
             <div className="space-y-4">
               <div>
-                <h3 className="font-bold text-foreground mb-1 sm:mb-2 text-sm sm:text-base">Call Us Now</h3>
+                <h3 className="font-bold text-foreground mb-1 sm:mb-2 text-sm sm:text-base">Call for Guidance</h3>
                 <p className="text-xs sm:text-sm text-muted-foreground mb-3 sm:mb-4">
-                  Our experts are ready to help you find the perfect plan!
+                  Our independent advisors are ready to help you understand your connectivity options!
                 </p>
               </div>
               <a
@@ -44,7 +44,7 @@ export const StickyCallButton = () => {
                 {PHONE_NUMBER}
               </a>
               <p className="text-xs text-muted-foreground text-center">
-                Available 24/7
+                Independent Advisors 24/7
               </p>
             </div>
           </motion.div>

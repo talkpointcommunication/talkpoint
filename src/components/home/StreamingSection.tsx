@@ -5,33 +5,33 @@ import video2 from '@/assets/video2.mp4';
 const streamingFeatures = [
   {
     icon: Tv,
-    title: '4K Streaming',
-    description: 'Watch your favorite shows in stunning 4K quality without buffering',
+    title: 'Understanding 4K Streaming',
+    description: 'We help you understand what internet speeds you need for 4K streaming',
   },
   {
     icon: Film,
-    title: 'Multiple Devices',
-    description: 'Stream on all your devices simultaneously with no slowdown',
+    title: 'Multi-Device Guidance',
+    description: 'Learn how to support multiple devices streaming simultaneously',
   },
   {
     icon: Gamepad2,
-    title: 'Zero Lag Gaming',
-    description: 'Experience lag-free gaming with ultra-low latency',
+    title: 'Gaming Requirements',
+    description: 'Understand latency and speed needs for online gaming',
   },
   {
     icon: Music,
-    title: 'Music & Podcasts',
-    description: 'Enjoy high-fidelity audio streaming all day long',
+    title: 'Audio Streaming Info',
+    description: 'Get guidance on bandwidth for high-fidelity audio streaming',
   },
   {
     icon: Monitor,
-    title: 'Work From Home',
-    description: 'Video calls and remote work made seamless',
+    title: 'Remote Work Setup',
+    description: 'Learn about connectivity needs for video calls and remote work',
   },
   {
     icon: Smartphone,
-    title: 'Smart Home Ready',
-    description: 'Connect all your smart devices effortlessly',
+    title: 'Smart Home Planning',
+    description: 'Understand how to support all your smart devices',
   },
 ];
 
@@ -46,10 +46,10 @@ export const StreamingSection = () => {
           className="text-center max-w-3xl mx-auto mb-16"
         >
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-foreground mb-4">
-            Stream Everything You <span className="gradient-text">Love</span>
+            Understanding Your <span className="gradient-text">Connectivity Needs</span>
           </h2>
           <p className="text-base sm:text-lg text-muted-foreground">
-            From binge-watching to online gaming, our high-speed internet delivers seamless entertainment for the whole family.
+            We help you understand what internet speeds and capabilities you need for streaming, gaming, remote work, and smart home devices. Get practical guidance on connectivity requirements.
           </p>
         </motion.div>
 

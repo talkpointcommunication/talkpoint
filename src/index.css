@@ -132,7 +132,13 @@
 
   .card-base:hover {
     box-shadow: var(--shadow-card-hover);
-    transform: translateY(-2px) sm:translateY(-4px);
+    transform: translateY(-2px);
+  }
+  
+  @media (min-width: 640px) {
+    .card-base:hover {
+      transform: translateY(-4px);
+    }
   }
 
   .gradient-text {

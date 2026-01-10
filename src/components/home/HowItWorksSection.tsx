@@ -5,22 +5,22 @@ const steps = [
   {
     icon: MapPin,
     title: 'Tell Us Your Needs',
-    description: 'Share your location and connectivity requirements with our assistance team.',
+    description: 'Share your location and connectivity requirements with our independent advisors.',
   },
   {
     icon: Calendar,
-    title: 'Review Options',
-    description: 'We help you understand the available plans and services in your area.',
+    title: 'Learn About Options',
+    description: 'We help you understand the available internet/broadband options in your area.',
   },
   {
     icon: Wrench,
-    title: 'Get Guidance',
-    description: 'Receive personalized assistance to navigate the options that fit your needs.',
+    title: 'Get Independent Guidance',
+    description: 'Receive unbiased advice to help you understand options from multiple providers.',
   },
   {
     icon: Wifi,
     title: 'Make Informed Decisions',
-    description: 'Use our expert guidance to choose the connectivity solution that works for you.',
+    description: 'Use our expert guidance to navigate provider processes and choose what works for you.',
   },
 ];
 
@@ -42,10 +42,10 @@ export const HowItWorksSection = () => {
           className="text-center max-w-3xl mx-auto mb-16"
         >
           <h2 className="text-3xl sm:text-4xl font-bold text-foreground mb-4">
-            Getting Assistance is <span className="gradient-text">Easy</span>
+            Getting Independent Advice is <span className="gradient-text">Easy</span>
           </h2>
           <p className="text-lg text-muted-foreground">
-            From consultation to decision, we guide you through every step.
+            From consultation to decision, our independent advisors guide you through every step.
           </p>
         </motion.div>
 

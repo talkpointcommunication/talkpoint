@@ -6,7 +6,6 @@ import { FeaturesGrid } from '@/components/home/FeaturesGrid';
 import { VideoSection } from '@/components/home/VideoSection';
 import { HowItWorksSection } from '@/components/home/HowItWorksSection';
 import { StreamingSection } from '@/components/home/StreamingSection';
-import { PlansPreviewSection } from '@/components/home/PlansPreviewSection';
 import { LifestyleSection } from '@/components/home/LifestyleSection';
 import { GallerySection } from '@/components/home/GallerySection';
 import { TestimonialsSection } from '@/components/home/TestimonialsSection';
@@ -22,7 +21,6 @@ const Index = () => {
       <VideoSection />
       <HowItWorksSection />
       <StreamingSection />
-      <PlansPreviewSection />
       <LifestyleSection />
       <GallerySection />
       <TestimonialsSection />

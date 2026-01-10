@@ -2,10 +2,10 @@ import { motion } from 'framer-motion';
 import { useEffect, useState, useRef } from 'react';
 
 const stats = [
-  { value: 1000, suffix: '+', label: 'People Assisted' },
+  { value: 1000, suffix: '+', label: 'Consultations Provided' },
   { value: 2026, suffix: '', label: 'Founded' },
   { value: 100, suffix: '%', label: 'Independent' },
-  { value: 24, suffix: '/7', label: 'Assistance Available' },
+  { value: 24, suffix: '/7', label: 'Advisory Service' },
 ];
 
 const CountUp = ({ end, suffix, duration = 2 }: { end: number; suffix: string; duration?: number }) => {

@@ -25,7 +25,7 @@ export const GallerySection = () => {
             See What's <span className="gradient-text">Possible</span>
           </h2>
           <p className="text-lg text-muted-foreground">
-            Join many people who've received our guidance and support for their connectivity needs.
+            Join many people who've received independent guidance and advisory support for understanding their connectivity options.
           </p>
         </motion.div>
 

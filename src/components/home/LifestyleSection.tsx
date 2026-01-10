@@ -5,20 +5,20 @@ import technicianImage from '@/assets/technician-install.jpg';
 
 const features = [
   {
-    title: 'Work From Home Support',
-    description: 'We help you find connectivity options that support crystal-clear video calls and fast file transfers to keep you productive.',
+    title: 'Work From Home Guidance',
+    description: 'We help you understand connectivity requirements for crystal-clear video calls and fast file transfers to keep you productive.',
     image: workFromHome,
     reverse: false,
   },
   {
-    title: 'Gaming Connectivity Guidance',
-    description: 'Get assistance finding low-latency, high-speed options for smoother gameplay and faster response times.',
+    title: 'Gaming Connectivity Advice',
+    description: 'Get independent guidance on low-latency, high-speed options for smoother gameplay and faster response times.',
     image: gamingImage,
     reverse: true,
   },
   {
-    title: 'Setup Assistance',
-    description: 'Our team guides you through understanding installation options and setup requirements for optimal connectivity.',
+    title: 'Setup & Installation Help',
+    description: 'Our advisors help you understand installation options and setup requirements from various providers.',
     image: technicianImage,
     reverse: false,
   },
@@ -38,7 +38,7 @@ export const LifestyleSection = () => {
             Guidance for Your <span className="gradient-text">Lifestyle</span>
           </h2>
           <p className="text-lg text-muted-foreground">
-            Whether you work from home, game online, or stream in 4K, we help you understand the connectivity options that fit your needs.
+            Whether you work from home, game online, or stream in 4K, our independent advisors help you understand the connectivity options that fit your needs.
           </p>
         </motion.div>
 

@@ -48,7 +48,7 @@ export const CtaBanner = () => {
             className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary-foreground/10 border border-primary-foreground/20 text-primary-foreground text-sm font-medium mb-6"
           >
             <Sparkles className="w-4 h-4" />
-            Expert Assistance Available 24/7
+            Independent Internet Advisors 24/7
           </motion.div>
           
           <motion.h2 
@@ -58,7 +58,7 @@ export const CtaBanner = () => {
             transition={{ delay: 0.1 }}
             className="text-3xl sm:text-4xl lg:text-5xl font-bold text-primary-foreground mb-6"
           >
-            Ready to Find Your Perfect Connectivity Solution?
+            Need Independent Internet or Cable TV Help?
           </motion.h2>
           
           <motion.p 
@@ -68,8 +68,8 @@ export const CtaBanner = () => {
             transition={{ delay: 0.2 }}
             className="text-lg text-primary-foreground/80 mb-8"
           >
-            Let our expert team guide you through the available options in your area. 
-            Get personalized assistance to make informed connectivity decisions.
+            Talk to our independent advisors who help you understand connectivity options from multiple providers. 
+            We are NOT an ISP—we provide unbiased guidance to help you make informed decisions.
           </motion.p>
           
           <motion.div 
@@ -81,7 +81,7 @@ export const CtaBanner = () => {
           >
             <Button variant="cta" size="xl" className="bg-primary-foreground text-foreground hover:bg-primary-foreground/90 group" asChild>
               <a href="tel:(888) 363-0848">
-                Call Now (888) 363-0848
+                Call for Independent Service Guidance
                 <ArrowRight className="w-5 h-5 transition-transform group-hover:translate-x-1" />
               </a>
             </Button>
@@ -92,7 +92,7 @@ export const CtaBanner = () => {
               whileTap={{ scale: 0.98 }}
             >
               <Phone className="w-5 h-5" />
-              (888) 363-0848
+              Get Cable TV Service Help
             </motion.a>
           </motion.div>
           
@@ -103,8 +103,7 @@ export const CtaBanner = () => {
             transition={{ delay: 0.5 }}
             className="text-sm text-primary-foreground/60"
           >
-            * TALK POINT SOLUTIONS charges separate fees for our assistance services. 
-            We do not sell plans or services from providers.
+            Not an ISP. No brand affiliation. We provide independent guidance only—we are not affiliated, authorized, or endorsed by any telecom/cable company.
           </motion.p>
         </div>
       </div>

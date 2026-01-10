@@ -8,27 +8,27 @@ import bundleImage from '@/assets/bundle-service.jpg';
 const services = [
   {
     icon: Wifi,
-    title: 'Internet Assistance',
-    description: 'Get guidance on fiber and cable internet options. We help you understand speeds, data plans, and what works best for your needs.',
+    title: 'Internet Service Guidance',
+    description: 'Get independent guidance on fiber and cable internet options. We help you understand speeds, data plans, and what works best for your needs—without ISP bias.',
     image: internetImage,
-    href: '/internet-plans',
-    highlight: 'Expert Guidance',
+    href: '/contact',
+    highlight: 'Independent Advice',
   },
   {
     icon: Tv,
-    title: 'Cable TV Support',
-    description: 'Navigate HD channels, on-demand options, and sports packages. We assist you in finding entertainment that fits your lifestyle.',
+    title: 'Cable TV Service Help',
+    description: 'Navigate HD channels, on-demand options, and sports packages. We provide unbiased assistance to understand entertainment choices from various providers.',
     image: cableImage,
-    href: '/cable-tv-plans',
-    highlight: 'Personalized Help',
+    href: '/contact',
+    highlight: 'Unbiased Support',
   },
   {
     icon: Package,
-    title: 'Bundle Guidance',
-    description: 'Learn about combining internet and TV services. We facilitate your understanding of bundled options from various providers.',
+    title: 'Connectivity Consultation',
+    description: 'Learn about combining internet and TV services. We provide third-party guidance to help you understand bundled options from multiple providers.',
     image: bundleImage,
-    href: '/bundles',
-    highlight: 'Comprehensive Support',
+    href: '/contact',
+    highlight: 'Expert Consultation',
   },
 ];
 
@@ -43,10 +43,10 @@ export const ServicesSection = () => {
           className="text-center max-w-3xl mx-auto mb-16"
         >
           <h2 className="text-3xl sm:text-4xl font-bold text-foreground mb-4">
-            Our Assistance Services
+            What We Do
           </h2>
           <p className="text-lg text-muted-foreground">
-            We guide you through connectivity options to help you make informed decisions about internet, TV, and streaming services.
+            We help you understand internet/broadband service options, get practical guidance on connectivity issues, and learn how to navigate service provider processes. We do NOT provide official service, ISP support, or represent any telecom brand.
           </p>
         </motion.div>
 
@@ -96,7 +96,7 @@ export const ServicesSection = () => {
                     <h3 className="text-xl font-bold text-foreground mb-2">{service.title}</h3>
                     <p className="text-muted-foreground mb-4">{service.description}</p>
                     <div className="flex items-center gap-2 text-primary font-medium group-hover:gap-3 transition-all">
-                      Call Now (888) 363-0848
+                      Call for Independent Service Guidance
                       <ArrowRight className="w-4 h-4 transition-transform group-hover:translate-x-1" />
                     </div>
                   </div>

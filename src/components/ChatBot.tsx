@@ -6,10 +6,10 @@ import { Button } from '@/components/ui/button';
 const PHONE_NUMBER = '(888) 363-0848';
 
 const quickReplies = [
-  'View Internet Plans',
-  'View TV Plans',
-  'Bundle Deals',
-  'Call Me Now',
+  'Internet Guidance',
+  'Cable TV Help',
+  'Connectivity Questions',
+  'Call an Advisor',
 ];
 
 export const ChatBot = () => {
@@ -17,7 +17,7 @@ export const ChatBot = () => {
   const [messages, setMessages] = useState([
     {
       type: 'bot',
-      text: 'Hi! Welcome to TALK POINT SOLUTIONS 👋 How can I help you today?',
+      text: 'Hi! Welcome to TALK POINT SOLUTIONS 👋 We\'re independent internet advisors. How can we help you understand your connectivity options today?',
     },
   ]);
   const [input, setInput] = useState('');
@@ -28,20 +28,20 @@ export const ChatBot = () => {
     setTimeout(() => {
       let response = '';
       switch (reply) {
-        case 'View Internet Plans':
-          response = 'Great! Check out our high-speed internet plans starting at $39.99/mo. Would you like to speak with our team?';
+        case 'Internet Guidance':
+          response = 'We provide independent guidance on internet/broadband options. Call our advisors to learn about connectivity choices in your area!';
           break;
-        case 'View TV Plans':
-          response = 'We have amazing TV packages with 200+ HD channels starting at $49.99/mo. Call us to learn more!';
+        case 'Cable TV Help':
+          response = 'Our independent advisors can help you understand cable TV service options from various providers. NOT affiliated with any provider!';
           break;
-        case 'Bundle Deals':
-          response = 'Save up to $30/mo with bundle options! We can help you understand combined Internet + TV packages. Ready to get started?';
+        case 'Connectivity Questions':
+          response = 'We help you understand connectivity issues and navigate service provider processes. Call for unbiased guidance!';
           break;
-        case 'Call Me Now':
-          response = `Perfect! Call us at ${PHONE_NUMBER}. We're available 24/7!`;
+        case 'Call an Advisor':
+          response = `Perfect! Call us at ${PHONE_NUMBER}. Independent advisors available 24/7!`;
           break;
         default:
-          response = `Thanks for your message! For immediate assistance, please call us at ${PHONE_NUMBER} or continue browsing our plans.`;
+          response = `Thanks for your message! For independent guidance, please call us at ${PHONE_NUMBER}. We are NOT an ISP—we provide advisory services only.`;
       }
       setMessages((prev) => [...prev, { type: 'bot', text: response }]);
     }, 1000);
@@ -58,7 +58,7 @@ export const ChatBot = () => {
         ...prev,
         {
           type: 'bot',
-          text: `Thank you for your message! For personalized assistance, please call us at ${PHONE_NUMBER}. Our team is available 24/7 to help you!`,
+          text: `Thank you for your message! For independent advisory service, please call us at ${PHONE_NUMBER}. Our independent advisors are available 24/7 to help you understand your connectivity options!`,
         },
       ]);
     }, 1000);

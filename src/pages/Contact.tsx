@@ -50,8 +50,8 @@ const Contact = () => {
       <div className="bg-primary/10 border-b-2 border-primary/30 py-4">
         <div className="container-width">
           <p className="text-xs sm:text-sm text-foreground text-center leading-relaxed">
-            <strong>Independent Service Disclosure:</strong> TALK POINT SOLUTIONS is an independent third-party assistance service. 
-            We do NOT sell plans or act on behalf of any provider. We charge separate fees for our guidance services.
+            <strong>Not an ISP. No brand affiliation.</strong> We are independent third-party internet advisors. 
+            We do NOT sell services or represent any telecom/cable company. We provide unbiased guidance only.
           </p>
         </div>
       </div>
@@ -62,11 +62,11 @@ const Contact = () => {
         <div className="container-width section-padding relative">
           <div className="text-center max-w-3xl mx-auto">
             <h1 className="text-4xl sm:text-5xl font-bold text-foreground mb-6">
-              Get <span className="gradient-text">Assistance</span>
+              Get Independent <span className="gradient-text">Guidance</span>
             </h1>
             <p className="text-lg text-muted-foreground">
-              Have questions about connectivity options? Need help understanding available services in your area? 
-              Our expert assistance team is here to guide you through the process.
+              Have questions about internet or cable TV options? Need help understanding available services in your area? 
+              Our independent advisors are here to provide unbiased guidance—NOT to sell you anything.
             </p>
           </div>
         </div>
@@ -78,7 +78,7 @@ const Contact = () => {
           <div className="grid lg:grid-cols-2 gap-12">
             {/* Contact Form */}
             <div className="card-base p-6 lg:p-8">
-              <h2 className="text-2xl font-bold text-foreground mb-6">Request Assistance</h2>
+              <h2 className="text-2xl font-bold text-foreground mb-6">Request Independent Guidance</h2>
               <form onSubmit={handleSubmit} className="space-y-6">
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                   <div className="space-y-2">
