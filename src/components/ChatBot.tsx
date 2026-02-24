@@ -3,7 +3,7 @@ import { MessageCircle, X, Send } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Button } from '@/components/ui/button';
 
-const PHONE_NUMBER = '(888) 363-0848';
+const PHONE_NUMBER = '(888) 908-7317';
 
 const quickReplies = [
   'Internet Guidance',

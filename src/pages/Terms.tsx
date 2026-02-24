@@ -73,7 +73,7 @@ const Terms = () => {
               <br />
               Email: legal@talkpointsolutions.com
               <br />
-              Phone: (888) 363-0848
+              Phone: (888) 908-7317
             </p>
           </div>
         </div>

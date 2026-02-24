@@ -46,12 +46,12 @@ const Accessibility = () => {
               <br /><br />
               Email: accessibility@talkpointsolutions.com
               <br />
-              Phone: (888) 363-0848
+              Phone: (888) 908-7317
             </p>
 
             <h2 className="text-2xl font-bold text-foreground mt-8 mb-4">Alternative Access</h2>
             <p className="text-muted-foreground mb-4">
-              If you have difficulty using our website, please call us at (888) 363-0848. 
+              If you have difficulty using our website, please call us at (888) 908-7317. 
               Our team will be happy to assist you with service information and sign-up.
             </p>
           </div>

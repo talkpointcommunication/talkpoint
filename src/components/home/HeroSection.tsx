@@ -118,13 +118,13 @@ export const HeroSection = () => {
               className="flex flex-col sm:flex-row items-stretch sm:items-center justify-center gap-2.5 sm:gap-3 md:gap-4 w-full px-4 sm:px-0 max-w-2xl mx-auto"
             >
               <Button variant="cta" size="xl" className="group shadow-2xl hover:shadow-primary/25 w-full sm:w-auto sm:min-w-[280px] md:min-w-[300px] text-sm sm:text-base" asChild>
-                <a href="tel:(888) 363-0848">
+                <a href="tel:(888) 908-7317">
                   Talk to a Third-Party Internet Advisor
                   <ArrowRight className="w-4 h-4 sm:w-5 sm:h-5 transition-transform group-hover:translate-x-1" />
                 </a>
               </Button>
               <Button variant="outline" size="xl" className="gap-2 group w-full sm:w-auto sm:min-w-[260px] md:min-w-[280px] text-sm sm:text-base" asChild>
-                <a href="tel:(888) 363-0848">
+                <a href="tel:(888) 908-7317">
                   <Phone className="w-4 h-4 sm:w-5 sm:h-5 group-hover:scale-110 transition-transform" />
                   Call for Independent Guidance
                 </a>

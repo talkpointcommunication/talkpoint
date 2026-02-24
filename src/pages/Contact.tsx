@@ -10,7 +10,7 @@ const contactInfo = [
   {
     icon: Phone,
     title: 'Phone',
-    details: ['(888) 363-0848', 'Mon-Fri 8am-8pm, Sat 9am-5pm'],
+    details: ['(888) 908-7317', 'Mon-Fri 8am-8pm, Sat 9am-5pm'],
   },
   {
     icon: Mail,
@@ -159,11 +159,11 @@ const Contact = () => {
                   Call us now and speak with a specialist
                 </p>
                 <a
-                  href="tel:(888) 363-0848"
+                  href="tel:(888) 908-7317"
                   className="inline-flex items-center gap-2 bg-primary-foreground text-foreground px-6 py-3 rounded-full font-semibold hover:bg-primary-foreground/90 transition-colors"
                 >
                   <Phone className="w-5 h-5" />
-                  (888) 363-0848
+                  (888) 908-7317
                 </a>
               </div>
             </div>
