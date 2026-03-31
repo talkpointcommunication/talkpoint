@@ -82,7 +82,7 @@ const faqs = [
       },
       {
         q: 'How do I request a refund?',
-        a: 'Contact us at (888) 908-7317 or support@talkpointsolutions.com within the applicable refund window. Include your full name, service date, and reason for the request. Refunds are processed within 7-10 business days upon approval.',
+        a: 'Contact us at (888) 505-8837 or support@talkpointsolutions.com within the applicable refund window. Include your full name, service date, and reason for the request. Refunds are processed within 7-10 business days upon approval.',
       },
       {
         q: 'Can you cancel my provider service for me?',
@@ -99,7 +99,7 @@ const faqs = [
       },
       {
         q: 'How do I contact customer support?',
-        a: 'Our support team is available 24/7 by phone at (888) 908-7317 or via email at support@talkpointsolutions.com. We\'re here to answer questions about our assistance services.',
+        a: 'Our support team is available 24/7 by phone at (888) 505-8837 or via email at support@talkpointsolutions.com. We\'re here to answer questions about our assistance services.',
       },
       {
         q: 'Do you provide technical support for provider equipment?',
@@ -172,10 +172,10 @@ const FAQ = () => {
             <p className="text-muted-foreground mb-6">
               Our support team is available 24/7 to assist you with any questions about our guidance services.
             </p>
-            <a href="tel:(888) 908-7317">
+            <a href="tel:(888) 505-8837">
               <Button variant="cta" size="lg">
                 <Phone className="w-5 h-5" />
-                Call Now (888) 908-7317
+                Call Now (888) 505-8837
               </Button>
             </a>
           </div>

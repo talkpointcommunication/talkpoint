@@ -96,13 +96,13 @@ const CableTvPlans = () => {
               </p>
               <div className="flex flex-wrap gap-4">
                 <Button variant="cta" size="lg" className="group" asChild>
-                  <a href="tel:(888) 908-7317">
-                    Call Now (888) 908-7317
+                  <a href="tel:(888) 505-8837">
+                    Call Now (888) 505-8837
                     <ArrowRight className="w-5 h-5 transition-transform group-hover:translate-x-1" />
                   </a>
                 </Button>
                 <Button variant="outline" size="lg" asChild>
-                  <a href="tel:(888) 908-7317">Call (888) 908-7317</a>
+                  <a href="tel:(888) 505-8837">Call (888) 505-8837</a>
                 </Button>
               </div>
             </motion.div>
@@ -194,7 +194,7 @@ const CableTvPlans = () => {
                   className="w-full"
                   size="lg"
                 >
-                  <a href="tel:(888) 908-7317">Get Assistance</a>
+                  <a href="tel:(888) 505-8837">Get Assistance</a>
                 </Button>
               </motion.div>
             ))}
