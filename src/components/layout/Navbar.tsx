@@ -47,12 +47,12 @@ export const Navbar = () => {
 
           {/* CTA Button */}
           <div className="hidden lg:flex items-center gap-3 xl:gap-4">
-            <a href="tel:(888) 505-8837" className="hidden xl:flex items-center gap-2 text-xs lg:text-sm font-medium text-muted-foreground hover:text-primary transition-colors">
+            <a href="tel:+18886202103" className="hidden xl:flex items-center gap-2 text-xs lg:text-sm font-medium text-muted-foreground hover:text-primary transition-colors">
               <Phone className="w-3.5 h-3.5 lg:w-4 lg:h-4" />
-              (888) 505-8837
+              (888) 620-2103
             </a>
             <Button variant="cta" size="sm" asChild className="hidden xl:flex text-xs lg:text-sm">
-              <a href="tel:(888) 505-8837">Get Independent Advice</a>
+              <a href="tel:+18886202103">Get Independent Advice</a>
             </Button>
           </div>
 
@@ -85,12 +85,12 @@ export const Navbar = () => {
                 </Link>
               ))}
               <div className="pt-3 sm:pt-4 border-t border-border mt-2">
-                <a href="tel:(888) 505-8837" className="flex items-center gap-2 text-sm sm:text-base font-medium text-muted-foreground mb-3 sm:mb-4 touch-manipulation">
+                <a href="tel:+18886202103" className="flex items-center gap-2 text-sm sm:text-base font-medium text-muted-foreground mb-3 sm:mb-4 touch-manipulation">
                   <Phone className="w-4 h-4" />
-                  (888) 505-8837
+                  (888) 620-2103
                 </a>
                 <Button variant="cta" className="w-full touch-manipulation" asChild>
-                  <a href="tel:(888) 505-8837">Get Guidance</a>
+                  <a href="tel:+18886202103">Get Guidance</a>
                 </Button>
               </div>
             </div>

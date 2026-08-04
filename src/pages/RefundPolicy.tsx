@@ -93,7 +93,7 @@ const RefundPolicy = () => {
                 <div className="bg-secondary/50 rounded-xl p-6 space-y-3">
                   <p className="text-foreground font-medium">Contact Information:</p>
                   <p className="text-muted-foreground">
-                    <strong>Phone:</strong> (888) 505-8837
+                    <strong>Phone:</strong> (888) 620-2103
                   </p>
                   <p className="text-muted-foreground">
                     <strong>Email:</strong> support@talkpointsolutions.com
@@ -126,7 +126,7 @@ const RefundPolicy = () => {
               <section>
                 <h2 className="text-2xl font-bold text-foreground mb-4">Contact Us</h2>
                 <p className="text-muted-foreground leading-relaxed">
-                  If you have questions about our Refund Policy, please contact us at support@talkpointsolutions.com or call (888) 505-8837. Our support team is available 24/7 to assist you.
+                  If you have questions about our Refund Policy, please contact us at support@talkpointsolutions.com or call (888) 620-2103. Our support team is available 24/7 to assist you.
                 </p>
               </section>
             </div>

@@ -67,7 +67,7 @@ const Privacy = () => {
               <br />
               Email: privacy@talkpointsolutions.com
               <br />
-              Phone: (888) 505-8837
+              Phone: (888) 620-2103
             </p>
           </div>
         </div>

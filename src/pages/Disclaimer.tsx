@@ -160,7 +160,7 @@ const Disclaimer = () => {
                 <div className="bg-secondary/50 rounded-xl p-6 space-y-3">
                   <p className="text-foreground font-medium">TALK POINT SOLUTIONS</p>
                   <p className="text-muted-foreground">
-                    <strong>Phone:</strong> (888) 505-8837
+                    <strong>Phone:</strong> (888) 620-2103
                   </p>
                   <p className="text-muted-foreground">
                     <strong>Email:</strong> support@talkpointsolutions.com

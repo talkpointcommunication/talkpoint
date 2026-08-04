@@ -3,7 +3,8 @@ import { Phone, X } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Button } from '@/components/ui/button';
 
-const PHONE_NUMBER = '(888) 505-8837';
+const PHONE_NUMBER = '(888) 620-2103';
+const PHONE_NUMBER_TEL = '+18886202103';
 
 export const StickyCallButton = () => {
   const [isExpanded, setIsExpanded] = useState(false);
@@ -37,7 +38,7 @@ export const StickyCallButton = () => {
                 </p>
               </div>
               <a
-                href={`tel:${PHONE_NUMBER}`}
+                href={`tel:${PHONE_NUMBER_TEL}`}
                 className="flex items-center justify-center gap-3 bg-primary text-white px-6 py-3 rounded-xl font-semibold hover:bg-primary/90 transition-colors"
               >
                 <Phone className="w-5 h-5" />

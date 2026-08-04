@@ -142,7 +142,7 @@ export const PlansPreviewSection = () => {
                 className="w-full"
                 asChild
               >
-                <a href="tel:(888) 505-8837">Call Now (888) 505-8837</a>
+                <a href="tel:+18886202103">Call Now (888) 620-2103</a>
               </Button>
             </motion.div>
           ))}
@@ -156,10 +156,10 @@ export const PlansPreviewSection = () => {
           className="text-center mt-12"
         >
           <a
-            href="tel:(888) 505-8837"
+            href="tel:+18886202103"
             className="inline-flex items-center gap-2 text-primary font-medium hover:gap-3 transition-all"
           >
-            Call Now (888) 505-8837
+            Call Now (888) 620-2103
             <ArrowRight className="w-4 h-4" />
           </a>
         </motion.div>

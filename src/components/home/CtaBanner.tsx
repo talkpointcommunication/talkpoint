@@ -80,13 +80,13 @@ export const CtaBanner = () => {
             className="flex flex-col sm:flex-row gap-4 mb-8"
           >
             <Button variant="cta" size="xl" className="bg-primary-foreground text-foreground hover:bg-primary-foreground/90 group" asChild>
-              <a href="tel:(888) 505-8837">
+              <a href="tel:+18886202103">
                 Call for Independent Service Guidance
                 <ArrowRight className="w-5 h-5 transition-transform group-hover:translate-x-1" />
               </a>
             </Button>
             <motion.a
-              href="tel:(888) 505-8837"
+              href="tel:+18886202103"
               className="btn-outline flex items-center justify-center gap-2 !border-primary-foreground !text-primary-foreground hover:!bg-primary-foreground hover:!text-foreground h-14 px-8 text-lg"
               whileHover={{ scale: 1.02 }}
               whileTap={{ scale: 0.98 }}

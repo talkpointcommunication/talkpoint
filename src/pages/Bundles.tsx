@@ -61,8 +61,8 @@ const Bundles = () => {
               <h1 className="text-4xl sm:text-5xl font-bold text-foreground mb-6">Understanding <span className="gradient-text">Bundle Options</span></h1>
               <p className="text-lg text-muted-foreground mb-8">We help you explore combined internet and TV packages to understand potential savings and options.</p>
               <div className="flex flex-wrap gap-4">
-                <Button variant="cta" size="lg" className="group" asChild><a href="tel:(888) 505-8837">Call Now (888) 505-8837 <ArrowRight className="w-5 h-5 transition-transform group-hover:translate-x-1" /></a></Button>
-                <Button variant="outline" size="lg" asChild><a href="tel:(888) 505-8837">Call (888) 505-8837</a></Button>
+                <Button variant="cta" size="lg" className="group" asChild><a href="tel:+18886202103">Call Now (888) 620-2103 <ArrowRight className="w-5 h-5 transition-transform group-hover:translate-x-1" /></a></Button>
+                <Button variant="outline" size="lg" asChild><a href="tel:+18886202103">Call (888) 620-2103</a></Button>
               </div>
             </motion.div>
             <motion.div className="relative" initial={{ opacity: 0, scale: 0.9 }} animate={{ opacity: 1, scale: 1 }} transition={{ duration: 0.6, delay: 0.2 }}>
