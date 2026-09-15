@@ -1,4 +1,4 @@
-import { motion } from 'framer-motion';
+﻿import { motion } from 'framer-motion';
 import { ArrowRight, Phone, Sparkles } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import streamingImage from '@/assets/streaming-family.jpg';
@@ -69,7 +69,7 @@ export const CtaBanner = () => {
             className="text-lg text-primary-foreground/80 mb-8"
           >
             Talk to our independent advisors who help you understand connectivity options from multiple providers. 
-            We are NOT an ISP—we provide unbiased guidance to help you make informed decisions.
+            We are NOT an ISPâ€”we provide unbiased guidance to help you make informed decisions.
           </motion.p>
           
           <motion.div 
@@ -80,13 +80,13 @@ export const CtaBanner = () => {
             className="flex flex-col sm:flex-row gap-4 mb-8"
           >
             <Button variant="cta" size="xl" className="bg-primary-foreground text-foreground hover:bg-primary-foreground/90 group" asChild>
-              <a href="tel:+18886202103">
+              <a href="tel:+18888824649">
                 Call for Independent Service Guidance
                 <ArrowRight className="w-5 h-5 transition-transform group-hover:translate-x-1" />
               </a>
             </Button>
             <motion.a
-              href="tel:+18886202103"
+              href="tel:+18888824649"
               className="btn-outline flex items-center justify-center gap-2 !border-primary-foreground !text-primary-foreground hover:!bg-primary-foreground hover:!text-foreground h-14 px-8 text-lg"
               whileHover={{ scale: 1.02 }}
               whileTap={{ scale: 0.98 }}
@@ -103,7 +103,7 @@ export const CtaBanner = () => {
             transition={{ delay: 0.5 }}
             className="text-sm text-primary-foreground/60"
           >
-            Not an ISP. No brand affiliation. We provide independent guidance only—we are not affiliated, authorized, or endorsed by any telecom/cable company.
+            Not an ISP. No brand affiliation. We provide independent guidance onlyâ€”we are not affiliated, authorized, or endorsed by any telecom/cable company.
           </motion.p>
         </div>
       </div>

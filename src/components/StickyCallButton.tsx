@@ -1,10 +1,10 @@
-import { useState } from 'react';
+﻿import { useState } from 'react';
 import { Phone, X } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Button } from '@/components/ui/button';
 
-const PHONE_NUMBER = '(888) 620-2103';
-const PHONE_NUMBER_TEL = '+18886202103';
+const PHONE_NUMBER = '(888) 882-4649';
+const PHONE_NUMBER_TEL = '+18888824649';
 
 export const StickyCallButton = () => {
   const [isExpanded, setIsExpanded] = useState(false);

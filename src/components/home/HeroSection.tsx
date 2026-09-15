@@ -1,4 +1,4 @@
-import { ArrowRight, Check, Play, Wifi, Tv, Zap, Star, Shield, Clock, Sparkles, Phone } from 'lucide-react';
+﻿import { ArrowRight, Check, Play, Wifi, Tv, Zap, Star, Shield, Clock, Sparkles, Phone } from 'lucide-react';
 import { motion } from 'framer-motion';
 import { Button } from '@/components/ui/button';
 import heroImage from '@/assets/hero-family.jpg';
@@ -107,7 +107,7 @@ export const HeroSection = () => {
               transition={{ duration: 0.8, delay: 0.45 }}
               className="text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl text-muted-foreground max-w-3xl mx-auto leading-relaxed px-4 sm:px-6"
             >
-              We are <span className="font-bold text-foreground">independent advisors</span> helping you understand internet, cable TV, and connectivity options. Get <span className="font-bold text-foreground">unbiased guidance</span> to make informed decisions—no ISP affiliation.
+              We are <span className="font-bold text-foreground">independent advisors</span> helping you understand internet, cable TV, and connectivity options. Get <span className="font-bold text-foreground">unbiased guidance</span> to make informed decisionsâ€”no ISP affiliation.
             </motion.p>
 
             {/* CTAs */}
@@ -118,13 +118,13 @@ export const HeroSection = () => {
               className="flex flex-col sm:flex-row items-stretch sm:items-center justify-center gap-2.5 sm:gap-3 md:gap-4 w-full px-4 sm:px-0 max-w-2xl mx-auto"
             >
               <Button variant="cta" size="xl" className="group shadow-2xl hover:shadow-primary/25 w-full sm:w-auto sm:min-w-[280px] md:min-w-[300px] text-sm sm:text-base" asChild>
-                <a href="tel:+18886202103">
+                <a href="tel:+18888824649">
                   Talk to a Third-Party Internet Advisor
                   <ArrowRight className="w-4 h-4 sm:w-5 sm:h-5 transition-transform group-hover:translate-x-1" />
                 </a>
               </Button>
               <Button variant="outline" size="xl" className="gap-2 group w-full sm:w-auto sm:min-w-[260px] md:min-w-[280px] text-sm sm:text-base" asChild>
-                <a href="tel:+18886202103">
+                <a href="tel:+18888824649">
                   <Phone className="w-4 h-4 sm:w-5 sm:h-5 group-hover:scale-110 transition-transform" />
                   Call for Independent Guidance
                 </a>

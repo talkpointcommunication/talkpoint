@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { Phone, Mail, MapPin } from 'lucide-react';
+import { Phone, Mail } from 'lucide-react';
 import { Logo } from '@/components/Logo';
 
 const footerLinks = {
@@ -41,18 +41,14 @@ export const Footer = () => {
               An independent third-party advisory service helping you navigate internet and cable TV options. We are NOT an ISP or affiliated with any provider—we provide unbiased guidance only.
             </p>
             <div className="space-y-2 sm:space-y-3">
-              <a href="tel:+18886202103" className="flex items-center gap-2 sm:gap-3 text-sm sm:text-base text-primary-foreground/70 hover:text-primary transition-colors">
+              <a href="tel:+18888824649" className="flex items-center gap-2 sm:gap-3 text-sm sm:text-base text-primary-foreground/70 hover:text-primary transition-colors">
                 <Phone className="w-4 h-4" />
-                (888) 620-2103
+                (888) 882-4649
               </a>
               <a href="mailto:support@talkpointsolutions.com" className="flex items-center gap-2 sm:gap-3 text-sm sm:text-base text-primary-foreground/70 hover:text-primary transition-colors">
                 <Mail className="w-4 h-4" />
                 support@talkpointsolutions.com
               </a>
-              <div className="flex items-center gap-3 text-primary-foreground/70">
-                <MapPin className="w-4 h-4 flex-shrink-0" />
-                <span>123 Tech Street, Innovation City, ST 12345</span>
-              </div>
             </div>
           </div>
 

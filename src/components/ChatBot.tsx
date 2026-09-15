@@ -1,9 +1,9 @@
-import { useState } from 'react';
+﻿import { useState } from 'react';
 import { MessageCircle, X, Send } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Button } from '@/components/ui/button';
 
-const PHONE_NUMBER = '(888) 620-2103';
+const PHONE_NUMBER = '(888) 882-4649';
 
 const quickReplies = [
   'Internet Guidance',
@@ -17,7 +17,7 @@ export const ChatBot = () => {
   const [messages, setMessages] = useState([
     {
       type: 'bot',
-      text: 'Hi! Welcome to TALK POINT SOLUTIONS 👋 We\'re independent internet advisors. How can we help you understand your connectivity options today?',
+      text: 'Hi! Welcome to TALK POINT SOLUTIONS ðŸ‘‹ We\'re independent internet advisors. How can we help you understand your connectivity options today?',
     },
   ]);
   const [input, setInput] = useState('');
@@ -41,7 +41,7 @@ export const ChatBot = () => {
           response = `Perfect! Call us at ${PHONE_NUMBER}. Independent advisors available 24/7!`;
           break;
         default:
-          response = `Thanks for your message! For independent guidance, please call us at ${PHONE_NUMBER}. We are NOT an ISP—we provide advisory services only.`;
+          response = `Thanks for your message! For independent guidance, please call us at ${PHONE_NUMBER}. We are NOT an ISPâ€”we provide advisory services only.`;
       }
       setMessages((prev) => [...prev, { type: 'bot', text: response }]);
     }, 1000);

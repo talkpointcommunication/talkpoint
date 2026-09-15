@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';
+﻿import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { Check, ArrowRight, Zap } from 'lucide-react';
 import { Button } from '@/components/ui/button';
@@ -142,7 +142,7 @@ export const PlansPreviewSection = () => {
                 className="w-full"
                 asChild
               >
-                <a href="tel:+18886202103">Call Now (888) 620-2103</a>
+                <a href="tel:+18888824649">Call Now (888) 882-4649</a>
               </Button>
             </motion.div>
           ))}
@@ -156,10 +156,10 @@ export const PlansPreviewSection = () => {
           className="text-center mt-12"
         >
           <a
-            href="tel:+18886202103"
+            href="tel:+18888824649"
             className="inline-flex items-center gap-2 text-primary font-medium hover:gap-3 transition-all"
           >
-            Call Now (888) 620-2103
+            Call Now (888) 882-4649
             <ArrowRight className="w-4 h-4" />
           </a>
         </motion.div>

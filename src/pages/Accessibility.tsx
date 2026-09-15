@@ -1,4 +1,4 @@
-import { Layout } from '@/components/layout/Layout';
+﻿import { Layout } from '@/components/layout/Layout';
 
 const Accessibility = () => {
   return (
@@ -46,12 +46,12 @@ const Accessibility = () => {
               <br /><br />
               Email: accessibility@talkpointsolutions.com
               <br />
-              Phone: (888) 620-2103
+              Phone: (888) 882-4649
             </p>
 
             <h2 className="text-2xl font-bold text-foreground mt-8 mb-4">Alternative Access</h2>
             <p className="text-muted-foreground mb-4">
-              If you have difficulty using our website, please call us at (888) 620-2103. 
+              If you have difficulty using our website, please call us at (888) 882-4649. 
               Our team will be happy to assist you with service information and sign-up.
             </p>
           </div>

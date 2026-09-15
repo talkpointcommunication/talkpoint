@@ -1,4 +1,4 @@
-import { Layout } from '@/components/layout/Layout';
+﻿import { Layout } from '@/components/layout/Layout';
 import { motion } from 'framer-motion';
 import { ArrowLeft, AlertCircle } from 'lucide-react';
 import { Link } from 'react-router-dom';
@@ -26,7 +26,7 @@ const RefundPolicy = () => {
                 <div>
                   <h3 className="font-bold text-foreground mb-2">Independent Service Disclosure</h3>
                   <p className="text-sm text-muted-foreground">
-                    TALK POINT SOLUTIONS is an independent third-party service assistance startup, launched in 2026, and is not affiliated with, endorsed by, or sponsored by any cable, internet, or streaming service provider. We provide guidance and assistance services only—we do not sell plans or services directly.
+                    TALK POINT SOLUTIONS is an independent third-party service assistance startup, launched in 2026, and is not affiliated with, endorsed by, or sponsored by any cable, internet, or streaming service provider. We provide guidance and assistance services onlyâ€”we do not sell plans or services directly.
                   </p>
                 </div>
               </div>
@@ -44,7 +44,7 @@ const RefundPolicy = () => {
                   Refund requests can be submitted within 7 to 15 days of service purchase, depending on the type of assistance provided. The refund window and eligibility criteria are determined by whether our assistance services have already been delivered and the nature of the support requested.
                 </p>
                 <p className="text-muted-foreground leading-relaxed">
-                  Please note that TALK POINT SOLUTIONS charges separate service and assistance fees. These fees are distinct from any charges you may incur directly with internet, cable, or streaming service providers. Our refund policy applies only to the assistance fees charged by TALK POINT SOLUTIONS—not to provider charges.
+                  Please note that TALK POINT SOLUTIONS charges separate service and assistance fees. These fees are distinct from any charges you may incur directly with internet, cable, or streaming service providers. Our refund policy applies only to the assistance fees charged by TALK POINT SOLUTIONSâ€”not to provider charges.
                 </p>
               </section>
 
@@ -93,7 +93,7 @@ const RefundPolicy = () => {
                 <div className="bg-secondary/50 rounded-xl p-6 space-y-3">
                   <p className="text-foreground font-medium">Contact Information:</p>
                   <p className="text-muted-foreground">
-                    <strong>Phone:</strong> (888) 620-2103
+                    <strong>Phone:</strong> (888) 882-4649
                   </p>
                   <p className="text-muted-foreground">
                     <strong>Email:</strong> support@talkpointsolutions.com
@@ -126,7 +126,7 @@ const RefundPolicy = () => {
               <section>
                 <h2 className="text-2xl font-bold text-foreground mb-4">Contact Us</h2>
                 <p className="text-muted-foreground leading-relaxed">
-                  If you have questions about our Refund Policy, please contact us at support@talkpointsolutions.com or call (888) 620-2103. Our support team is available 24/7 to assist you.
+                  If you have questions about our Refund Policy, please contact us at support@talkpointsolutions.com or call (888) 882-4649. Our support team is available 24/7 to assist you.
                 </p>
               </section>
             </div>

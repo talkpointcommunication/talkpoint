@@ -1,4 +1,4 @@
-import { motion } from 'framer-motion';
+﻿import { motion } from 'framer-motion';
 import { Check, Zap, ArrowRight } from 'lucide-react';
 import { Layout } from '@/components/layout/Layout';
 import { Button } from '@/components/ui/button';
@@ -116,13 +116,13 @@ const InternetPlans = () => {
               </p>
               <div className="flex flex-wrap gap-4">
                 <Button variant="cta" size="lg" className="group" asChild>
-                  <a href="tel:+18886202103">
-                    Call Now (888) 620-2103
+                  <a href="tel:+18888824649">
+                    Call Now (888) 882-4649
                     <ArrowRight className="w-5 h-5 transition-transform group-hover:translate-x-1" />
                   </a>
                 </Button>
                 <Button variant="outline" size="lg" asChild>
-                  <a href="tel:+18886202103">Call (888) 620-2103</a>
+                  <a href="tel:+18888824649">Call (888) 882-4649</a>
                 </Button>
               </div>
             </motion.div>
@@ -215,7 +215,7 @@ const InternetPlans = () => {
                   size="lg"
                   asChild
                 >
-                  <a href="tel:+18886202103">Call Now (888) 620-2103</a>
+                  <a href="tel:+18888824649">Call Now (888) 882-4649</a>
                 </Button>
               </motion.div>
             ))}

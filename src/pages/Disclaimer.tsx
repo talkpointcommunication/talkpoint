@@ -1,4 +1,4 @@
-import { Layout } from '@/components/layout/Layout';
+﻿import { Layout } from '@/components/layout/Layout';
 import { motion } from 'framer-motion';
 import { ArrowLeft, AlertTriangle, Shield } from 'lucide-react';
 import { Link } from 'react-router-dom';
@@ -66,7 +66,7 @@ const Disclaimer = () => {
                 <h2 className="text-2xl font-bold text-foreground mb-4">No Provider Affiliation</h2>
                 <div className="bg-accent/10 border-l-4 border-accent rounded-r-xl p-6">
                   <p className="text-muted-foreground leading-relaxed mb-4">
-                    Any references to internet providers, cable companies, or streaming platforms on this website are for informational and descriptive purposes only. Mention of provider names, trademarks®, or service marks™ does not imply:
+                    Any references to internet providers, cable companies, or streaming platforms on this website are for informational and descriptive purposes only. Mention of provider names, trademarksÂ®, or service marksâ„¢ does not imply:
                   </p>
                   <ul className="list-disc list-inside text-muted-foreground space-y-2 ml-4">
                     <li>Partnership, sponsorship, or endorsement by those providers</li>
@@ -160,7 +160,7 @@ const Disclaimer = () => {
                 <div className="bg-secondary/50 rounded-xl p-6 space-y-3">
                   <p className="text-foreground font-medium">TALK POINT SOLUTIONS</p>
                   <p className="text-muted-foreground">
-                    <strong>Phone:</strong> (888) 620-2103
+                    <strong>Phone:</strong> (888) 882-4649
                   </p>
                   <p className="text-muted-foreground">
                     <strong>Email:</strong> support@talkpointsolutions.com

@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Phone, Mail, MapPin, Send, Clock } from 'lucide-react';
+import { Phone, Mail, Send, Clock } from 'lucide-react';
 import { Layout } from '@/components/layout/Layout';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
@@ -10,17 +10,12 @@ const contactInfo = [
   {
     icon: Phone,
     title: 'Phone',
-    details: ['(888) 620-2103', 'Mon-Fri 8am-8pm, Sat 9am-5pm'],
+    details: ['(888) 882-4649', 'Mon-Fri 8am-8pm, Sat 9am-5pm'],
   },
   {
     icon: Mail,
     title: 'Email',
     details: ['support@talkpointsolutions.com', 'We respond within 24 hours'],
-  },
-  {
-    icon: MapPin,
-    title: 'Office',
-    details: ['123 Tech Street', 'Innovation City, ST 12345'],
   },
   {
     icon: Clock,
@@ -159,11 +154,11 @@ const Contact = () => {
                   Call us now and speak with a specialist
                 </p>
                 <a
-                  href="tel:+18886202103"
+                  href="tel:+18888824649"
                   className="inline-flex items-center gap-2 bg-primary-foreground text-foreground px-6 py-3 rounded-full font-semibold hover:bg-primary-foreground/90 transition-colors"
                 >
                   <Phone className="w-5 h-5" />
-                  (888) 620-2103
+                  (888) 882-4649
                 </a>
               </div>
             </div>

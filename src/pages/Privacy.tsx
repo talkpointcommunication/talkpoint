@@ -1,4 +1,4 @@
-import { Layout } from '@/components/layout/Layout';
+﻿import { Layout } from '@/components/layout/Layout';
 
 const Privacy = () => {
   return (
@@ -67,7 +67,7 @@ const Privacy = () => {
               <br />
               Email: privacy@talkpointsolutions.com
               <br />
-              Phone: (888) 620-2103
+              Phone: (888) 882-4649
             </p>
           </div>
         </div>
