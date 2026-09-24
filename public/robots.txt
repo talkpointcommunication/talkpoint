@@ -1,0 +1,56 @@
+# Robots.txt for Talk Point Communication
+# https://talkpointcommunication.com/
+
+# Sitemap
+Sitemap: https://talkpointcommunication.com/sitemap.xml
+
+# Allow all bots
+User-agent: *
+Allow: /
+Disallow: /admin
+Disallow: /.git
+Disallow: /.gitignore
+Disallow: /node_modules
+Disallow: /package.json
+Disallow: /src
+Disallow: /public
+Crawl-delay: 1
+
+# Specific rules for Googlebot
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 0
+
+# Specific rules for Bingbot
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
+
+# Specific rules for social media bots
+User-agent: Twitterbot
+Allow: /
+
+User-agent: facebookexternalhit
+Allow: /
+
+User-agent: LinkedInBot
+Allow: /
+
+User-agent: WhatsApp
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+# Block bad bots
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: DotBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
