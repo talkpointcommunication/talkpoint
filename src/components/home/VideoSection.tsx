@@ -66,7 +66,7 @@ export const VideoSection = () => {
                 className="inline-flex items-center gap-2 px-3 sm:px-5 py-2 sm:py-2.5 rounded-full bg-white/10 backdrop-blur-md border border-white/20 mb-6 sm:mb-8"
               >
                 <TrendingUp className="w-4 h-4 text-primary" />
-                <span className="text-xs sm:text-sm font-semibold text-white">Independent Third-Party Internet Advisors</span>
+                <span className="text-xs sm:text-sm font-semibold text-white">Independent Streaming Advisors</span>
               </motion.div>
 
               {/* Heading */}
@@ -80,18 +80,17 @@ export const VideoSection = () => {
                 <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-black text-white mb-4 sm:mb-6 leading-[1.1]">
                   Understand Your
                   <span className="block mt-1 sm:mt-2">
-                    Internet &{' '}
                     <span className="bg-gradient-to-r from-primary via-accent to-success bg-clip-text text-transparent">
-                      Cable Options
+                      Streaming & Entertainment Options
                     </span>
                   </span>
                 </h2>
                 <p className="text-base sm:text-lg md:text-xl lg:text-2xl text-white/90 mb-3 sm:mb-4 leading-relaxed max-w-3xl">
-                  Get independent guidance on internet and cable TV service options. We help you navigate connectivity choices—NOT an ISP.
+                  Get independent guidance on streaming services and entertainment options. We help you navigate your choices—NOT a streaming provider.
                 </p>
                 <div className="flex items-center gap-2 sm:gap-3">
                   <Shield className="w-4 h-4 sm:w-5 sm:h-5 text-success" />
-                  <span className="text-white/80 text-xs sm:text-sm">Independent advisors • No ISP affiliation • Unbiased guidance</span>
+                  <span className="text-white/80 text-xs sm:text-sm">Independent advisors • No streaming provider affiliation • Unbiased guidance</span>
                 </div>
               </motion.div>
 
