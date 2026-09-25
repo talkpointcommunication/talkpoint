@@ -48,7 +48,7 @@ export const CtaBanner = () => {
             className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary-foreground/10 border border-primary-foreground/20 text-primary-foreground text-sm font-medium mb-6"
           >
             <Sparkles className="w-4 h-4" />
-            Independent Internet Advisors 24/7
+            Independent Streaming Advisors 24/7
           </motion.div>
           
           <motion.h2 
@@ -58,7 +58,7 @@ export const CtaBanner = () => {
             transition={{ delay: 0.1 }}
             className="text-3xl sm:text-4xl lg:text-5xl font-bold text-primary-foreground mb-6"
           >
-            Need Independent Internet or Cable TV Help?
+            Need Independent Streaming & Entertainment Help?
           </motion.h2>
           
           <motion.p 
@@ -68,8 +68,8 @@ export const CtaBanner = () => {
             transition={{ delay: 0.2 }}
             className="text-lg text-primary-foreground/80 mb-8"
           >
-            Talk to our independent advisors who help you understand connectivity options from multiple providers. 
-            We are NOT an ISPâ€”we provide unbiased guidance to help you make informed decisions.
+            Talk to our independent advisors who help you understand streaming and entertainment options from multiple platforms. 
+            We are NOT a streaming providerâ€"we provide unbiased guidance to help you make informed decisions.
           </motion.p>
           
           <motion.div 
@@ -92,7 +92,7 @@ export const CtaBanner = () => {
               whileTap={{ scale: 0.98 }}
             >
               <Phone className="w-5 h-5" />
-              Get Cable TV Service Help
+              Find Streaming Solutions
             </motion.a>
           </motion.div>
           

@@ -14,7 +14,7 @@ const highlights = [
     icon: Users,
     title: '1,000+ Consultations',
     value: 'Trusted',
-    description: 'People helped understand connectivity options',
+    description: 'People helped navigate streaming services',
     color: 'from-blue-500 to-cyan-500',
   },
   {
