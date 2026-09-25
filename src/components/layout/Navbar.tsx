@@ -24,7 +24,7 @@ export const Navbar = () => {
             <Logo className="w-10 h-10 sm:w-12 sm:h-12 transition-transform group-hover:scale-105" />
             <div className="flex flex-col">
               <span className="text-xs sm:text-sm md:text-base lg:text-lg font-black text-foreground leading-tight">TALK POINT</span>
-              <span className="text-[8px] sm:text-[10px] md:text-xs font-semibold gradient-text leading-tight">SOLUTIONS</span>
+              <span className="text-[8px] sm:text-[10px] md:text-xs font-semibold gradient-text leading-tight">COMMUNICATION</span>
             </div>
           </Link>
 
