@@ -46,6 +46,22 @@
 
       gtag('config', 'AW-17865495674');
     </script>
+
+    <!-- Event snippet for Contact conversion page -->
+    <script>
+      function gtag_report_conversion(url) {
+        var callback = function () {
+          if (typeof(url) != 'undefined') {
+            window.location = url;
+          }
+        };
+        gtag('event', 'conversion', {
+            'send_to': 'AW-17865495674/CPOqCKjPy90cEPqo98ZC',
+            'event_callback': callback
+        });
+        return false;
+      }
+    </script>
     
     <!-- Single Page Apps for GitHub Pages -->
     <!-- Start Single Page Apps for GitHub Pages -->
